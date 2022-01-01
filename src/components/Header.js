@@ -1,9 +1,11 @@
 import React from "react";
 
 export const Header = () => {
+    const handleClick = () => {
+    }
     return (
-        <h2 style={{color: "black", fontSize: "3rem"}}>
-            Buget Personal
-        </h2>
+        <button className={'btn-buget'} style={{color: "black", fontSize: "3rem"}} onClick={handleClick}>
+            BUGET PERSONAL
+        </button>
     )
 }
