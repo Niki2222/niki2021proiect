@@ -41,12 +41,12 @@ h4 {
  }
 
 .header {
-  margin: 30px auto;
+  margin: 10px auto;
   width: 500px;
-  background-color: #c1f5ea;
-  border: .2rem solid blue;
+  background-color: #97e198;
+  border: .2rem solid black;
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 0.1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,14 +56,19 @@ h4 {
 .balance {
   margin: 30px auto;
   width: 350px;
-  background-color: #c1f5ea;
-  border: .2rem solid blue;
+  background-color: #97e198;
+  border: .2rem solid black;
   border-radius: 1rem;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.img {
+  background-image: url("./images/piggy-g7fc864018_1920.jpg");
+  background-position: center;
 }
 
 .inc-exp-container {
@@ -115,9 +120,9 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: blue;
+  background-color: #97e198;
   box-shadow: var(--box-shadow);
-  color: #fff;
+  color: black;
   border: 0;
   display: block;
   font-size: 16px;
