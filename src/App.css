@@ -43,9 +43,22 @@ h4 {
 .header {
   margin: 30px auto;
   width: 500px;
-  background-color: #ade6dc;
+  background-color: #c1f5ea;
   border: .2rem solid blue;
-  border-radius: 2rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.balance {
+  margin: 30px auto;
+  width: 350px;
+  background-color: #c1f5ea;
+  border: .2rem solid blue;
+  border-radius: 1rem;
   padding: 1rem;
   display: flex;
   flex-direction: column;

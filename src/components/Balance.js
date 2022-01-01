@@ -6,9 +6,9 @@ export const Balance = () => {
     const amounts = transactions.map(transaction => transaction.amount);
     const total = amounts.reduce((acc, item) => (acc += item), 0).toFixed(2);
     return (
-        <>
+        <div className={'balance'}>
             <h4>Balanta la zi</h4>
             <h1>{total}Lei</h1>
-        </>
+        </div>
     )
 }

@@ -1,26 +1,21 @@
 import React from "react";
 import './App.css';
-import {Header} from "./components/Header";
-import {Balance} from "./components/Balance";
-import {IncomeExpenses} from "./components/IncomeExpenses";
-import {TransactionList} from "./components/TransactionList";
-import {AddTransaction} from "./components/AddTransaction";
-import {GlobalProvider} from "./context/GlobalState";
-
+import {Home} from "./pages/home";
+import {Elements} from "./pages/elements";
+import {NotFound} from "./pages/not-found";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 function App() {
   return (
-      <GlobalProvider>
-          <div className="header">
-            <Header />
-            <Balance />
-          </div>
-        <div className="container">
-          <IncomeExpenses />
-          <TransactionList />
-          <AddTransaction />
-        </div>
-      </GlobalProvider>
+      <div>
+          <BrowserRouter>
+              <Routes>
+                  <Route path={'/'} element={<Home />}/>
+                  <Route path={'/elements'} element={<Elements />}/>
+                  <Route path={'*'} element={<NotFound />}/>
+              </Routes>
+          </BrowserRouter>
+      </div>
   );
 }
 
