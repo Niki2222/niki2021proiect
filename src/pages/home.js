@@ -9,11 +9,9 @@ export const Home = () => {
                 <div className={'header'}>
                     <Header />
                 </div>
-                <div className={'img'} style={{
-                    height: "80vh",
-                    width: "100vw"
-                }}>
-                </div>
+                <button className={'btn-head1'} >
+                    <a href='/elements' >DETALII</a>
+                </button>
             </div>
           </GlobalProvider>
     )
