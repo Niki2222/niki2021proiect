@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import './App.scss';
 import {Home} from "./pages/home";
 import {Elements} from "./pages/elements";
 import {NotFound} from "./pages/not-found";

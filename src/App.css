@@ -8,80 +8,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: url("./images/piggy-g7fc864018_1920.jpg");
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  min-height: 100vh;
-  margin: 0;
-  font-family: 'Lato', sans-serif;
-}
-
-.detalii {
-  background-color: #bbb;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 80vh;
-  min-width: 25vw;
-  margin: 0;
-  font-family: 'Lato', sans-serif;
-}
-
-.container {
-  margin: 30px auto;
-  width: 350px;
-}
-
-h1 {
-  letter-spacing: 1px;
-  margin: 0;
-}
-
-h3 {
-  border-bottom: 1px solid #bbb;
-  padding-bottom: 10px;
-  margin: 40px 0 10px;
-}
-
-h4 {
-  margin: 0;
-  text-transform: uppercase;
- }
-
-.header {
-  margin: 1px auto;
-  width: 500px;
-  background-color: #97e198;
-  border: .2rem solid black;
-  border-radius: .5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.balance {
-  margin: 30px auto;
-  width: 350px;
-  background-color: #97e198;
-  border: .2rem solid black;
-  border-radius: 1rem;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .inc-exp-container {
   background-color: #fff;
   box-shadow: var(--box-shadow);
@@ -142,30 +68,6 @@ input[type='number'] {
   width: 100%;
 }
 
-.btn-buget {
-  background-color: #97e198;
-  color: black;
-  border: 0;
-  display: block;
-  font-size: 16px;
-  margin: 10px 0 10px;
-  padding: 1px;
-  width: 100%;
-}
-
-.btn-head1 {
-  margin: 2px auto;
-  padding: 5px;
-  width: 10rem;
-  font-size: 16px;
-  background-color: #eeace5;
-  border: .2rem solid black;
-  border-radius: .5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 .btn:focus,
 .delete-btn:focus {
   outline: 0;
